@@ -2,7 +2,13 @@
   "name": "qiita-comparing-storybook-ladle",
   "module": "index.ts",
   "type": "module",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
     "bun-types": "latest"
   },
   "peerDependencies": {
